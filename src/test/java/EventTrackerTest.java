@@ -32,7 +32,7 @@ public class EventTrackerTest {
 
         eventTracker.push("test");
 
-        Assert.assertEquals(testList, eventTracker.tracker());
+        Assert.assertEquals(testList, eventTracker.getTracker());
 
     }
 
